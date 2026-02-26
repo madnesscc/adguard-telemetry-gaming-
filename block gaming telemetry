@@ -1,6 +1,6 @@
 # ============================================================
 # Gaming Publisher Telemetry & Spy Blocklist
-# Kompatibel mit: AdGuard Home, Pi-hole, NextDNS
+# Kompatibel mit: AdGuard Home
 # Abgedeckte Publisher: Ubisoft, Epic, Activision/Blizzard,
 #   EA, Riot Games, Rockstar, 2K, Bethesda, Xbox/Microsoft,
 #   Unity Engine, Steam/Valve
@@ -173,5 +173,5 @@
 ||js-agent.newrelic.com^
 
 # ============================================================
-# ENDE DER DATEI
+# END
 # ============================================================
