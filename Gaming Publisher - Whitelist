@@ -1,1 +1,165 @@
+# ============================================================
+# Gaming Publisher - Whitelist
+# Zweck: Login, Cloud-Save, Sync & Anti-Cheat schützen
+# Kompatibel mit: AdGuard Home, Pi-hole (als Allowlist)
+# Kann direkt in die Blocklisten-Datei eingefügt werden!
+# Letzte Aktualisierung: Februar 2026
+# ============================================================
+
+
+# ------------------------------------------------------------
+# STEAM / VALVE - Login & Cloud-Save
+# ------------------------------------------------------------
+@@||steampowered.com^
+@@||steamcommunity.com^
+@@||steamstatic.com^
+@@||steam-chat.com^
+@@||steamworks.steampowered.com^
+@@||api.steampowered.com^
+@@||store.steampowered.com^
+@@||login.steampowered.com^
+@@||steamgames.com^
+@@||steamcdn-a.akamaihd.net^
+
+
+# ------------------------------------------------------------
+# VALORANT / RIOT GAMES - Login & Sync
+# ------------------------------------------------------------
+@@||riotgames.com^
+@@||auth.riotgames.com^
+@@||entitlements.auth.riotgames.com^
+@@||clientconfig.rpg.riotgames.com^
+@@||valorant.secure.dyn.riotgames.com^
+@@||playerpreferences.riotgames.com^
+@@||ledge.na.riotgames.com^
+@@||static.ui.riotgames.com^
+@@||login.riotgames.com^
+
+
+# ------------------------------------------------------------
+# UBISOFT CONNECT - Login, Spielstand & Sync
+# ------------------------------------------------------------
+@@||ubisoft.com^
+@@||ubi.com^
+@@||ubisoft-dns.com^
+@@||ubiservices.ubi.com^
+@@||connect.ubisoft.com^
+@@||ubisoftentertainment.com^
+@@||static3.cdn.ubi.com^
+@@||ubidlsb.akamaized.net^
+@@||cloudfront.ubisoft.com^
+
+
+# ------------------------------------------------------------
+# BATTLE.NET - Login & Charakter-Sync
+# ------------------------------------------------------------
+@@||blizzard.com^
+@@||battle.net^
+@@||blizzard-dns.com^
+@@||us.battle.net^
+@@||eu.battle.net^
+@@||asia.battle.net^
+@@||bnet.battle.net^
+@@||hero.battle.net^
+@@||nydus.battle.net^
+@@||logon.battle.net^
+@@||blzddist1-a.akamaihd.net^
+
+
+# ------------------------------------------------------------
+# CALL OF DUTY / ACTIVISION - Login & Spielstand
+# ------------------------------------------------------------
+@@||activision.com^
+@@||callofduty.com^
+@@||demonware.net^
+@@||modernwarfare.com^
+@@||s.activision.com^
+
+
+# ------------------------------------------------------------
+# EPIC GAMES - Login, Cloud-Save & Sync
+# ------------------------------------------------------------
+@@||epicgames.com^
+@@||unrealengine.com^
+@@||fortnite.com^
+@@||ol.epicgames.com^
+@@||cdn1.unrealengine.com^
+@@||cdn2.unrealengine.com^
+@@||fastly-download.epicgames.com^
+@@||cloudstorage.ol.epicgames.com^
+@@||user-service-prod.ol.epicgames.com^
+@@||account-public-service-prod.ol.epicgames.com^
+@@||datastorage.ol.epicgames.com^
+
+
+# ------------------------------------------------------------
+# EA / ELECTRONIC ARTS - Login & Cloud-Save
+# ------------------------------------------------------------
+@@||ea.com^
+@@||origin.com^
+@@||easports.com^
+@@||accounts.ea.com^
+@@||signin.ea.com^
+@@||cloudsync.ea.com^
+@@||cloudsave.ea.com^
+
+
+# ------------------------------------------------------------
+# ROCKSTAR GAMES - Login & Spielstand
+# ------------------------------------------------------------
+@@||rockstargames.com^
+@@||socialclub.rockstargames.com^
+@@||auth.rockstargames.com^
+@@||prod.cloud.rockstargames.com^
+
+
+# ------------------------------------------------------------
+# BETHESDA - Login & Sync
+# ------------------------------------------------------------
+@@||bethesda.net^
+@@||account.bethesda.net^
+@@||auth.bethesda.net^
+@@||cloudsave.bethesda.net^
+
+
+# ------------------------------------------------------------
+# UNITY - Cloud-Save & Authentifizierung
+# ------------------------------------------------------------
+@@||cloud-save.services.api.unity.com^
+@@||player-auth.services.api.unity.com^
+@@||services.api.unity.com^
+
+
+# ------------------------------------------------------------
+# ANTI-CHEAT (ABSOLUT KRITISCH - NIEMALS BLOCKIEREN!)
+# ------------------------------------------------------------
+@@||easy.ac^
+@@||easyanticheat.net^
+@@||vanguard.a.pvp.net^
+@@||battleye.com^
+@@||be.valve.com^
+@@||nprotect.com^
+@@||xigncode.com^
+
+
+# ------------------------------------------------------------
+# CDN & INFRASTRUKTUR (Downloads & Patches)
+# ------------------------------------------------------------
+@@||akamaihd.net^
+@@||akamaized.net^
+@@||cloudfront.net^
+@@||fastly.net^
+@@||edgecastcdn.net^
+
+
+# ------------------------------------------------------------
+# KOMMUNIKATION
+# ------------------------------------------------------------
+@@||discord.com^
+@@||discordapp.com^
+@@||discord.gg^
+
+# ============================================================
+# ENDE DER DATEI
+# ============================================================
 
