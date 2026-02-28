@@ -1,0 +1,31 @@
+name: 🛠️ Generate Pi-hole Compatible Lists
+
+on:
+  push:
+    paths:
+      - 'Gaming Publisher - Whitelist'
+      - 'block gaming telemetry'
+  workflow_dispatch:
+
+jobs:
+  convert-lists:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Convert to Pi-hole Format
+        run: |
+          # 1. Konvertierung der Telemetry-Blockliste
+          sed -e 's/||//g' -e 's/\^//g' -e '/^!/d' -e '/^#/d' -e '/^$/d' "block gaming telemetry" > pihole-telemetry.txt
+          
+          # 2. Konvertierung der Gaming-Whitelist
+          sed -e 's/@@||//g' -e 's/\^//g' -e 's/\$important//g' -e '/^!/d' -e '/^#/d' -e '/^$/d' "Gaming Publisher - Whitelist" > pihole-whitelist.txt
+          
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add pihole-telemetry.txt pihole-whitelist.txt
+          git commit -m "Update Pi-hole compatible lists [auto]" || echo "No changes to commit"
+          git push
