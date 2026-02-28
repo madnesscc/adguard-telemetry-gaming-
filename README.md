@@ -49,3 +49,6 @@ Maintainer: Custom List - Community
 ! License: MIT
 ! Last modified: 2026-02-28
 ! --------------------------------------------------
+
+---
+**Disclaimer:** This project is not affiliated with Amazon, NVIDIA, Microsoft, Google, or any other cloud gaming provider. All product names, logos, and brands are property of their respective owners. This list is maintained by **madnesscc** for community use under the MIT License.
