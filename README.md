@@ -9,6 +9,8 @@
 | **Gaming Whitelist** | [Ansehen](./Gaming%20Publisher%20-%20Whitelist) | [Download (Raw)](./pihole-whitelist.txt) |
 | **Telemetry Block** | [Ansehen](./block%20gaming%20telemetry) | [Download (Raw)](./pihole-telemetry.txt) |
 
+> **Status:** The Pi-hole version is automatically generated and updated on every change.
+
 
 🛡️ Gaming Telemetry Blocker (AdGuard Optimized)
 
