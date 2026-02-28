@@ -5,7 +5,7 @@ on:
     paths:
       - 'Gaming Publisher - Whitelist'
       - 'block gaming telemetry'
-  workflow_dispatch:
+  workflow_dispatch: # Das erlaubt uns den manuellen Start!
 
 jobs:
   convert-lists:
@@ -16,11 +16,21 @@ jobs:
 
       - name: Convert to Pi-hole Format
         run: |
-          # 1. Konvertierung der Telemetry-Blockliste
-          sed -e 's/||//g' -e 's/\^//g' -e '/^!/d' -e '/^#/d' -e '/^$/d' "block gaming telemetry" > pihole-telemetry.txt
+          # Telemetry umwandeln
+          if [ -f "block gaming telemetry" ]; then
+            sed -e 's/||//g' -e 's/\^//g' -e '/^!/d' -e '/^#/d' -e '/^$/d' "block gaming telemetry" > pihole-telemetry.txt
+            echo "✅ Telemetry converted."
+          else
+            echo "❌ File 'block gaming telemetry' not found!"
+          fi
           
-          # 2. Konvertierung der Gaming-Whitelist
-          sed -e 's/@@||//g' -e 's/\^//g' -e 's/\$important//g' -e '/^!/d' -e '/^#/d' -e '/^$/d' "Gaming Publisher - Whitelist" > pihole-whitelist.txt
+          # Whitelist umwandeln
+          if [ -f "Gaming Publisher - Whitelist" ]; then
+            sed -e 's/@@||//g' -e 's/\^//g' -e 's/\$important//g' -e '/^!/d' -e '/^#/d' -e '/^$/d' "Gaming Publisher - Whitelist" > pihole-whitelist.txt
+            echo "✅ Whitelist converted."
+          else
+            echo "❌ File 'Gaming Publisher - Whitelist' not found!"
+          fi
           
       - name: Commit and Push changes
         run: |
