@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 🛡️ Gaming Telemetry Blocker (AdGuard Optimized)
 
 This project provides high-performance filter lists specifically designed for AdGuard Home and AdGuard Apps.
@@ -42,4 +44,8 @@ You don't need to worry about adding them to different menus. The files use spec
 
 Maintainer: Custom List - Community
 
-Last Updated: February 2026
+! Version: 1.0.0
+! Author: madnesscc
+! License: MIT
+! Last modified: 2026-02-28
+! --------------------------------------------------
