@@ -1,5 +1,15 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+![Pi-hole Generation](https://github.com/madnesscc/adguard-telemetry-gaming-/actions/workflows/generate_pihole_lists.yml/badge.svg)
+
+## 📥 Download & Import
+
+| Filter Typ | AdGuard / uBlock (Standard) | Pi-hole / DNS (Clean) |
+| :--- | :--- | :--- |
+| **Gaming Whitelist** | [Ansehen](./Gaming%20Publisher%20-%20Whitelist) | [Download (Raw)](./pihole-whitelist.txt) |
+| **Telemetry Block** | [Ansehen](./block%20gaming%20telemetry) | [Download (Raw)](./pihole-telemetry.txt) |
+
+
 🛡️ Gaming Telemetry Blocker (AdGuard Optimized)
 
 This project provides high-performance filter lists specifically designed for AdGuard Home and AdGuard Apps.
