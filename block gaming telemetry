@@ -1,17 +1,11 @@
-# ============================================================
-# Gaming Publisher Telemetry & Spy Blocklist
-# Kompatibel mit: AdGuard Home
-# Abgedeckte Publisher: Ubisoft, Epic, Activision/Blizzard,
-#   EA, Riot Games, Rockstar, 2K, Bethesda, Xbox/Microsoft,
-#   Unity Engine, Steam/Valve
-# Maintainer: Eigene Liste - Community
-# Version: 1.0.0
-# Author: madnesscc
-# License: MIT
-# Last modified: 2026-02-28
-# Format: AdGuard / ABP
-# ============================================================
-
+! Title: Ultimate Gaming Telemetry & Spy Blocklist by madnesscc
+! Description: Blocks telemetry, crash reports and tracking for major game publishers.
+! Version: 1.1.1
+! Author: madnesscc
+! License: MIT
+! Last modified: 2026-02-28
+! Compatible with: AdGuard, uBlock Origin, AdGuard Home
+! ------------------------------------------------------------
 
 # ------------------------------------------------------------
 # UBISOFT - Telemetrie & Tracking
@@ -21,34 +15,27 @@
 ||datastore.nb.ubi.com^
 ||crashlogs.ubi.com^
 ||onlineconfigservice.ubi.com^
-||upc.ubi.com^
 ||telemetry.ubi.com^
 
-
 # ------------------------------------------------------------
-# EPIC GAMES - Telemetrie & Tracking
+# EPIC GAMES & UNREAL ENGINE
 # ------------------------------------------------------------
 ||metrics.ol.epicgames.com^
 ||tracking.epicgames.com^
 ||callisto.epicgames.com^
 ||eulatracking.ol.epicgames.com^
 ||datarouter.ol.epicgames.com^
+||utokenvalidation.ol.epicgames.com^
 ||o266e.ingest.sentry.io^
 
-
 # ------------------------------------------------------------
-# ACTIVISION / CALL OF DUTY - Telemetrie
+# ACTIVISION / BLIZZARD (BATTLE.NET)
 # ------------------------------------------------------------
 ||tracking.callofduty.com^
 ||telemetry.callofduty.com^
 ||analytics.callofduty.com^
 ||crash.callofduty.com^
 ||logs.callofduty.com^
-
-
-# ------------------------------------------------------------
-# BLIZZARD / BATTLE.NET - Telemetrie
-# ------------------------------------------------------------
 ||telemetry-in.battle.net^
 ||us.telemetry.blizzard.com^
 ||eu.telemetry.blizzard.com^
@@ -56,9 +43,8 @@
 ||analytics.blizzard.com^
 ||crash.blizzard.com^
 
-
 # ------------------------------------------------------------
-# EA / ELECTRONIC ARTS - Telemetrie
+# EA / ELECTRONIC ARTS
 # ------------------------------------------------------------
 ||telemetry.ea.com^
 ||tracking.ea.com^
@@ -69,112 +55,68 @@
 ||xray.ea.com^
 ||adobedc.net^
 
-
 # ------------------------------------------------------------
-# RIOT GAMES / VALORANT - Telemetrie
+# RIOT GAMES / ROCKSTAR / 2K / BETHESDA
 # ------------------------------------------------------------
 ||telemetry.riotgames.com^
 ||analytics.riotgames.com^
 ||tracking.riotgames.com^
-||logs.riotgames.com^
 ||crashreports.riotgames.com^
-
-
-# ------------------------------------------------------------
-# ROCKSTAR GAMES / GTA - Telemetrie
-# ------------------------------------------------------------
 ||telemetry.rockstargames.com^
 ||analytics.rockstargames.com^
 ||crash.rockstargames.com^
 ||tracking.rockstargames.com^
 ||logs.ros.rockstargames.com^
-
-
-# ------------------------------------------------------------
-# 2K GAMES - Telemetrie
-# ------------------------------------------------------------
 ||telemetry.2k.com^
 ||analytics.2k.com^
-||tracking.2k.com^
-||crash.2k.com^
-
-
-# ------------------------------------------------------------
-# BETHESDA / ZENIMAX - Telemetrie
-# ------------------------------------------------------------
 ||telemetry.bethesda.net^
 ||analytics.bethesda.net^
-||tracking.bethesda.net^
-||crash.bethesda.net^
-||logs.bethesda.net^
-
 
 # ------------------------------------------------------------
-# XBOX / MICROSOFT GAMING - Telemetrie
+# XBOX & MICROSOFT GAMING
 # ------------------------------------------------------------
 ||telemetry.microsoft.com^
-||vortex.data.microsoft.com^
 ||watson.telemetry.microsoft.com^
 ||watson.events.data.microsoft.com^
 ||statsfe2.ws.microsoft.com^
 ||sqm.microsoft.com^
-||compatexchange.cloudapp.net^
 ||oca.telemetry.microsoft.com^
 
-
 # ------------------------------------------------------------
-# VALVE / STEAM - Telemetrie
+# STEAM / VALVE
 # ------------------------------------------------------------
 ||crash.steampowered.com^
 ||logs.steampowered.com^
 ||reporting.steampowered.com^
 
-
 # ------------------------------------------------------------
-# UNITY ENGINE - Telemetrie (spielübergreifend)
+# ENGINE TELEMETRY (UNITY & GENERAL)
 # ------------------------------------------------------------
 ||stats.unity3d.com^
 ||cdp.cloud.unity3d.com^
 ||perf-events.cloud.unity3d.com^
-||data-optout-service.uca.cloud.unity3d.com^
 ||analytics.cloud.unity3d.com^
-||config.uca.cloud.unity3d.com^
-||ecommerce.iap.unity3d.com^
-
-
-# ------------------------------------------------------------
-# UNREAL ENGINE / EPIC BACKEND (Telemetrie)
-# ------------------------------------------------------------
-||datarouter.ol.epicgames.com^
-||utokenvalidation.ol.epicgames.com^
-
-
-# ------------------------------------------------------------
-# ALLGEMEINE GAME-ANALYTICS DIENSTE
-# ------------------------------------------------------------
 ||gameanalytics.com^
-||go.gameanalytics.com^
 ||api.gameanalytics.com^
-||rubicon.gameanalytics.com^
-||delta.gameanalytics.com^
-||splitio.com^
+
+# ------------------------------------------------------------
+# BONUS: MOBILE & IN-GAME ADS / TRACKING
+# ------------------------------------------------------------
+||adj.st^
+||adjust.com^
+||appsflyer.com^
+||kochava.com^
+||unityads.unity3d.com^
+||ironsrc.mobi^
+||supersonicads.com^
+
+# ------------------------------------------------------------
+# THIRD-PARTY ANALYTICS (USED IN GAMES)
+# ------------------------------------------------------------
 ||split.io^
-||app.split.io^
-||sdk.split.io^
 ||launchdarkly.com^
-||app.launchdarkly.com^
-||clientstream.launchdarkly.com^
 ||segment.io^
-||cdn.segment.com^
-||api.segment.io^
 ||mixpanel.com^
-||api.mixpanel.com^
 ||amplitude.com^
-||api.amplitude.com^
 ||newrelic.com^
 ||bam.nr-data.net^
-||js-agent.newrelic.com^
-
-# ============================================================
-# END
-# ============================================================
