@@ -3,7 +3,10 @@
 # Purpose: Protect Login, Cloud-Saves, Sync & Anti-Cheat services
 # Compatible with: AdGuard Home (as Allowlist)
 # Usage: Can be added directly to your allowlist configuration
-# Last Updated: February 2026
+# Version: 1.0.0
+# Author: madnesscc
+# License: MIT
+# Last modified: 2026-02-28
 # ============================================================
 
 
