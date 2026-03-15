@@ -8,6 +8,9 @@ store.steampowered.com
 login.steampowered.com
 steamgames.com
 steamcdn-a.akamaihd.net
+cm.steampowered.com               # [NEU] Steam Chat/Messaging Server
+cs.steampowered.com               # [NEU] Steam Content Server
+media.steampowered.com            # [NEU] Steam Media
 riotgames.com
 auth.riotgames.com
 entitlements.auth.riotgames.com
@@ -17,6 +20,8 @@ playerpreferences.riotgames.com
 ledge.na.riotgames.com
 static.ui.riotgames.com
 login.riotgames.com
+riot-geo.pas.si.riotgames.com     # [NEU] Riot Region Check
+lol.secure.dyn.riotgames.com      # [NEU] League of Legends (Riot)
 ubisoft.com
 ubi.com
 ubisoft-dns.com
@@ -26,6 +31,8 @@ ubisoftentertainment.com
 static3.cdn.ubi.com
 ubidlsb.akamaized.net
 cloudfront.ubisoft.com
+onlineconfig.ubi.com              # [NEU] Ubisoft Online Config
+public-ubiservices.ubi.com        # [NEU] Ubisoft Public Services
 blizzard.com
 battle.net
 blizzard-dns.com
@@ -37,11 +44,15 @@ hero.battle.net
 nydus.battle.net
 logon.battle.net
 blzddist1-a.akamaihd.net
+cdn.blizzard.com                  # [NEU] Blizzard CDN
+enUS.patch.battle.net             # [NEU] Patch-Server EU/US
+deDE.patch.battle.net             # [NEU] Patch-Server DE
 activision.com
 callofduty.com
 demonware.net
 modernwarfare.com
 s.activision.com
+cod.tracker.gg                    # [NEU] CoD Stats (optional)
 epicgames.com
 unrealengine.com
 fortnite.com
@@ -53,6 +64,13 @@ cloudstorage.ol.epicgames.com
 user-service-prod.ol.epicgames.com
 account-public-service-prod.ol.epicgames.com
 datastorage.ol.epicgames.com
+accounts.epicgames.com                                        # [NEU] Epic Auth
+account-public-service-prod03.ol.epicgames.com                # [NEU] Epic Auth
+lightswitch-public-service-prod06.ol.epicgames.com            # [NEU] Session
+friends-public-service-prod06.ol.epicgames.com                # [NEU] Friends
+fortnitecontent-website-prod07.ol.epicgames.com               # [NEU] Fortnite Content
+fn-service-discovery-live-public.ogs.live.on.epicgames.com    # [NEU] Fortnite Services
+datarouter.ol.epicgames.com                                   # [NEU] Epic Routing
 ea.com
 origin.com
 easports.com
@@ -60,17 +78,27 @@ accounts.ea.com
 signin.ea.com
 cloudsync.ea.com
 cloudsave.ea.com
+sdk.split.io                      # [NEU] EA App Pflicht (sonst Login-Fehler)
+eaassets-a.akamaihd.net           # [NEU] EA CDN Assets
+origin-a.akamaihd.net             # [NEU] Origin CDN
+api.origin.com                    # [NEU] Origin API
+auth.api.sso.ea.com               # [NEU] EA SSO Auth
 rockstargames.com
 socialclub.rockstargames.com
 auth.rockstargames.com
 prod.cloud.rockstargames.com
+scapi.rockstargames.com           # [NEU] Social Club API
+cfx.re                            # [NEU] FiveM / Rockstar CFX
 bethesda.net
 account.bethesda.net
 auth.bethesda.net
 cloudsave.bethesda.net
+api.bethesda.net                  # [NEU] Bethesda API
 cloud-save.services.api.unity.com
 player-auth.services.api.unity.com
 services.api.unity.com
+config.uca.cloud.unity3d.com      # [NEU] Unity Remote Config
+analytics.cloud.unity3d.com       # [NEU] Unity Analytics (nötig für Spielstart)
 easy.ac
 easyanticheat.net
 vanguard.a.pvp.net
@@ -78,11 +106,18 @@ battleye.com
 be.valve.com
 nprotect.com
 xigncode.com
+anticheat-boot.eac.epicgames.com  # [NEU] EAC über Epic
+download.eac.epicgames.com        # [NEU] EAC Update
 akamaihd.net
 akamaized.net
 cloudfront.net
 fastly.net
 edgecastcdn.net
+llnwd.net                         # [NEU] Limelight CDN (Blizzard/EA)
+cdn77.com                         # [NEU] CDN77 (div. Publisher)
+level3.net                        # [NEU] Level3 CDN
 discord.com
 discordapp.com
 discord.gg
+gateway.discord.gg                # [NEU] Discord Gateway (Voice/Chat)
+media.discordapp.net              # [NEU] Discord Media CDN
