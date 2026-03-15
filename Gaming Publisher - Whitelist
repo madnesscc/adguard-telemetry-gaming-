@@ -1,6 +1,6 @@
 ! Title: Ultimate Gaming Publisher Whitelist by madnesscc
 ! Description: Essential rules to fix login, cloud-sync, and anti-cheat issues.
-! Version: 1.5.0
+! Version: 2.0.0
 ! Author: madnesscc
 ! License: MIT
 ! ------------------------------------------------------------
@@ -16,6 +16,9 @@
 @@||login.steampowered.com^$important
 @@||steamgames.com^$important
 @@||steamcdn-a.akamaihd.net^$important
+@@||cm.steampowered.com^$important               # [NEU] Steam Chat/Messaging Server
+@@||cs.steampowered.com^$important               # [NEU] Steam Content Server
+@@||media.steampowered.com^$important            # [NEU] Steam Media
 
 # [VALORANT / RIOT GAMES]
 @@||riotgames.com^$important
@@ -27,6 +30,8 @@
 @@||ledge.na.riotgames.com^$important
 @@||static.ui.riotgames.com^$important
 @@||login.riotgames.com^$important
+@@||riot-geo.pas.si.riotgames.com^$important     # [NEU] Riot Region Check
+@@||lol.secure.dyn.riotgames.com^$important      # [NEU] League of Legends (Riot)
 
 # [UBISOFT CONNECT]
 @@||ubisoft.com^$important
@@ -38,6 +43,8 @@
 @@||static3.cdn.ubi.com^$important
 @@||ubidlsb.akamaized.net^$important
 @@||cloudfront.ubisoft.com^$important
+@@||onlineconfig.ubi.com^$important              # [NEU] Ubisoft Online Config
+@@||public-ubiservices.ubi.com^$important        # [NEU] Ubisoft Public Services
 
 # [BATTLE.NET]
 @@||blizzard.com^$important
@@ -51,6 +58,9 @@
 @@||nydus.battle.net^$important
 @@||logon.battle.net^$important
 @@||blzddist1-a.akamaihd.net^$important
+@@||cdn.blizzard.com^$important                  # [NEU] Blizzard CDN
+@@||enUS.patch.battle.net^$important             # [NEU] Patch-Server EU/US
+@@||deDE.patch.battle.net^$important             # [NEU] Patch-Server DE
 
 # [CALL OF DUTY / ACTIVISION]
 @@||activision.com^$important
@@ -58,8 +68,9 @@
 @@||demonware.net^$important
 @@||modernwarfare.com^$important
 @@||s.activision.com^$important
+@@||cod.tracker.gg^$important                    # [NEU] CoD Stats (optional)
 
-# [EPIC GAMES]
+# [EPIC GAMES / FORTNITE]
 @@||epicgames.com^$important
 @@||unrealengine.com^$important
 @@||fortnite.com^$important
@@ -71,6 +82,13 @@
 @@||user-service-prod.ol.epicgames.com^$important
 @@||account-public-service-prod.ol.epicgames.com^$important
 @@||datastorage.ol.epicgames.com^$important
+@@||accounts.epicgames.com^$important                                        # [NEU] Epic Auth
+@@||account-public-service-prod03.ol.epicgames.com^$important                # [NEU] Epic Auth
+@@||lightswitch-public-service-prod06.ol.epicgames.com^$important            # [NEU] Session
+@@||friends-public-service-prod06.ol.epicgames.com^$important                # [NEU] Friends
+@@||fortnitecontent-website-prod07.ol.epicgames.com^$important               # [NEU] Fortnite Content
+@@||fn-service-discovery-live-public.ogs.live.on.epicgames.com^$important    # [NEU] Fortnite Services
+@@||datarouter.ol.epicgames.com^$important                                   # [NEU] Epic Routing
 
 # [EA / ELECTRONIC ARTS]
 @@||ea.com^$important
@@ -80,23 +98,33 @@
 @@||signin.ea.com^$important
 @@||cloudsync.ea.com^$important
 @@||cloudsave.ea.com^$important
+@@||sdk.split.io^$important                      # [NEU] EA App Pflicht (sonst Login-Fehler)
+@@||eaassets-a.akamaihd.net^$important           # [NEU] EA CDN Assets
+@@||origin-a.akamaihd.net^$important             # [NEU] Origin CDN
+@@||api.origin.com^$important                    # [NEU] Origin API
+@@||auth.api.sso.ea.com^$important               # [NEU] EA SSO Auth
 
 # [ROCKSTAR GAMES]
 @@||rockstargames.com^$important
 @@||socialclub.rockstargames.com^$important
 @@||auth.rockstargames.com^$important
 @@||prod.cloud.rockstargames.com^$important
+@@||scapi.rockstargames.com^$important           # [NEU] Social Club API
+@@||cfx.re^$important                            # [NEU] FiveM / Rockstar CFX
 
 # [BETHESDA]
 @@||bethesda.net^$important
 @@||account.bethesda.net^$important
 @@||auth.bethesda.net^$important
 @@||cloudsave.bethesda.net^$important
+@@||api.bethesda.net^$important                  # [NEU] Bethesda API
 
 # [UNITY SERVICES]
 @@||cloud-save.services.api.unity.com^$important
 @@||player-auth.services.api.unity.com^$important
 @@||services.api.unity.com^$important
+@@||config.uca.cloud.unity3d.com^$important      # [NEU] Unity Remote Config
+@@||analytics.cloud.unity3d.com^$important       # [NEU] Unity Analytics (nötig für Spielstart)
 
 # [ANTI-CHEAT SYSTEMS]
 @@||easy.ac^$important
@@ -106,6 +134,8 @@
 @@||be.valve.com^$important
 @@||nprotect.com^$important
 @@||xigncode.com^$important
+@@||anticheat-boot.eac.epicgames.com^$important  # [NEU] EAC über Epic
+@@||download.eac.epicgames.com^$important        # [NEU] EAC Update
 
 # [INFRASTRUCTURE & CDN]
 @@||akamaihd.net^$important
@@ -113,9 +143,13 @@
 @@||cloudfront.net^$important
 @@||fastly.net^$important
 @@||edgecastcdn.net^$important
+@@||llnwd.net^$important                         # [NEU] Limelight CDN (Blizzard/EA)
+@@||cdn77.com^$important                         # [NEU] CDN77 (div. Publisher)
+@@||level3.net^$important                        # [NEU] Level3 CDN
 
 # [COMMUNICATION]
 @@||discord.com^$important
 @@||discordapp.com^$important
 @@||discord.gg^$important
-
+@@||gateway.discord.gg^$important                # [NEU] Discord Gateway (Voice/Chat)
+@@||media.discordapp.net^$important              # [NEU] Discord Media CDN
